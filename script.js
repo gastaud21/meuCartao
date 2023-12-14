@@ -18,7 +18,8 @@ function toggleMode() {
   //substituir a imagem
 
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png");
+    // img.setAttribute("src", "./assets/avatar-light.png");
+    img.setAttribute("src", "./assets/ft-perfil.png");
   } else {
     img.setAttribute("src", "./assets/AvatarRodrigo.png");
   }
